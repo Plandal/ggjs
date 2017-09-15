@@ -1,0 +1,103 @@
+{% include 'header.twig' %}
+
+       	<!-- MAIN SLIDER -->
+    	<section id="main-slider" class="fixed-height">      	
+            
+            <!-- MAIN SLIDER TITLE OUTTER WRAPPER -->
+        	<div class="slide-title-outter-wrapper">
+            	
+            	<!-- MAIN SLIDER TITLE INNER WRAPPER -->
+				<div class="slide-title-inner-wrapper">
+                            	
+					<!-- TITLE 1  -->
+					<div class="slide-title align-middle">
+                                	
+						<div class="container">
+                        	<div class="row">
+                        		<div class="col-md-offset-2 col-md-8">
+                                            
+                                	<div class="page-title">
+                                    
+                                    	<div style="padding-top:145px">
+                                			<h1 style="visibility: visible;" class="animation bounceInLeft animated">Le lieu du mariage</h1>
+                                		
+                                       		<a style="visibility: visible;" href="#map_canvas" class="de-button outline medium animation delay1 bounceInRight smooth-scroll animated">
+                                				C'est où ?
+                            				</a>
+                                      	</div>
+
+                                    </div>
+                                   
+								</div>
+							</div>
+						</div>
+                                    
+					</div>
+                                
+				</div><!-- END of MAIN SLIDER TITLE INNER WRAPPER -->
+                
+			</div> <!-- END of MAIN SLIDER TITLE OUTTER WRAPPER -->
+                         
+            <!-- MAIN SLIDER IMAGES -->            
+  			<div class="slides">
+    				<!-- SLIDE IMAGE -->
+                	<div data-stellar-ratio="0.5" class="slide-image" style="background-image: url(images/bandeau/lieu1.jpg); background-position: center bottom; display: block;">
+                    </div>
+                    
+                    <div class="slide-overlay"> </div>    
+    		</div>	<!-- END of MAIN SLIDER IMAGES -->
+            
+		</section><!-- ENF of MAIN SLIDER -->
+        
+        
+        
+        <!--CONTENT SECTION-->
+        <section id="content">
+        
+        	<!-- CONTAINER -->
+			<div class="container">
+            
+             	<!-- ROW-1 -->
+                <div class="row">
+                
+                	<div class="col-md-offset-1 col-md-5">
+                    
+                    	<div style="visibility: visible;" class="white-box-content-wrapper animation fadeInLeft animated">
+                        	<h3>L'église</h3>
+                            <span>8 Rue Victor Hugo, Maisons-Alfort<br><br></span>
+                    		<p>
+                        		Datant en partie du XIIème siècle, l’église Saint-Rémi est l’un des plus anciens bâtiments de notre ville.
+								Dotée d’un clocher roman reconstruit en 1972 après avoir pris la foudre, l’église abrite un orgue classé en partie et daté de 1779.
+							</p> 
+                            <img src="images/simple/eglise.jpg" alt="" class="fullwidth">
+                        </div>
+                    	
+                    </div>
+                    
+                    <div class="col-md-5">
+                    
+                    	<div style="visibility: visible;" class="white-box-content-wrapper animation fadeInRight animated">
+                        	<h3>La mairie</h3>
+                            <span>118 av du Général de Gaulle, Maisons-Alfort <br><br></span>
+                    		<p>
+                        		Héritier du bourg de "Maisons", le centre-ville compte avec le quartier d’Alfort, parmi les deux quartiers historiques de Maisons-Alfort.
+								Il abritait aux 17e et 18e siècles de fiefs et châteaux bordés de jardins, de parcs et de terrains fermiers, dont certains dataient du Moyen Age.
+							</p> 
+                            <img src="images/simple/mairie.jpg" alt="" class="fullwidth">
+                        </div>
+                    	
+                    </div>
+                    
+				</div><!--END of ROW-1-->
+             
+			</div> <!-- END of CONTAINER -->
+                        
+        </section> <!--END of CONTENT SECTION-->   
+        
+        <footer>
+        	 <div id="map_canvas"></div>
+        </footer>
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
+		<script src="js/ggjs/lieu.js"></script>
+
+{% include 'footer.twig' %}
